@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*hero container*/
+.hero_container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(136, 170, 170);
+}
+
+.container_bar{
+    float:left;
+    width: 13%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.upgrade{
+    
+    width: 87%;
+    height: 12vh;
+    float:right;
+    background-color: rgba(24, 24, 33, 1);
+}
+
+.container_stream{
+    float:left;
+    background-color: bisque;
+    height: 88vh;
+    width: 85%;
+}
