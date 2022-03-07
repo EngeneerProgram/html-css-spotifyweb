@@ -35,14 +35,68 @@ a{
 nav{
 display:flex;
 flex-direction: column;
-justify-content: center;
-align-items: left;
+
+
+line-height: 30px;
 }
 
 nav > a{
-    margin:20px;
+    margin:5px;
+    vertical-align: middle;
+    font-weight: bold;
+    
+}
+nav > a:focus{
+    border-left:3px solid lime;
+
 }
 
+nav > a > img{
+    width: 30px;
+    margin:0 10px;
+    vertical-align: middle;
+}
+
+
+.playlist{
+    display:Flex;
+    
+    margin:32px;
+}
+.playlist > h2{
+    color:white;
+    text-transform: uppercase;
+    font: 0.8rem;
+}
+
+.fa-plus{
+    color:white;
+    padding:15px 15px;
+    background-color: grey;
+    color:black;
+    
+}
+.crea{
+    display:flex;
+    align-items: center;
+    margin:32 px;
+}
+.crea > h3{
+    color:rgba(112, 113, 122, 1);
+    font-weight: bold;
+}
+.new{
+    margin-left:20px;
+}
+.list{
+    margin-top:10px;
+}
+.list li{
+    color:white;
+    padding:10px;
+    color:rgba(112, 113, 122, 1);
+    font-weight: bold;
+}
 .upgrade{
     position:relative;
     width: 1670px;
