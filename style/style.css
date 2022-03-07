@@ -6,6 +6,12 @@
 }
 a{
     text-decoration: none;
+    color:rgba(112, 113, 122, 1);
+}
+
+.fa-solid{
+    margin:0 10px;
+
 }
 /*hero container*/
 .hero_container{
@@ -17,14 +23,29 @@ a{
 .container_bar{
     
     float:left;
-    width: 13%;
+    width: 250px;
     height: 100%;
     background-color: rgba(0, 0, 0, 1);
 }
 
+.logo > img{
+    padding:30px;
+}
+/*menu barra sinistra*/
+nav{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: left;
+}
+
+nav > a{
+    margin:20px;
+}
+
 .upgrade{
     position:relative;
-    width: 87%;
+    width: 1670px;
     height: 12vh;
     float:right;
     background-color: rgba(24, 24, 33, 1);
@@ -54,7 +75,7 @@ a{
     float:left;
     background-color: rgba(35, 39, 47, 1);
     height: 88vh;
-    width: 87%;
+    width: 1670px;
 }
 
 header{
@@ -69,14 +90,31 @@ header{
     height: 100%;
     align-items: center;
     justify-content: space-around;
+    padding:40px;
 }
 
 .menu li{
     list-style: none;
-    color:rgba(112, 113, 122, 1)
+    
 }
 
-.menu > a{
-    text-transform: uppercase;
+.menu li a{
     color:rgba(112, 113, 122, 1);
+    text-transform: uppercase;
+    font-weight: bold;
+    
 }
+.menu li a:focus{
+    border-bottom: 3px solid lime;
+    transition:1s;
+    
+}
+
+.bordino{
+    margin:200px;
+    
+    width: 30px;
+    height: 3px;
+    background-color: lime;
+}
+
